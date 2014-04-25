@@ -1,0 +1,294 @@
+04-25 12:32:57.701    3442-3442/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-25 12:32:57.701    3442-3442/? D/AndroidRuntime﹕ CheckJNI is OFF
+04-25 12:32:57.721    3442-3442/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+04-25 12:32:57.721    3442-3442/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+04-25 12:32:57.721    3442-3442/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+04-25 12:32:57.721    3442-3442/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+04-25 12:32:57.721    3442-3442/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+04-25 12:32:57.761    3442-3442/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+04-25 12:32:57.971    3442-3442/? D/AndroidRuntime﹕ Calling main entry com.android.commands.pm.Pm
+04-25 12:32:57.991      587-611/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/akkaPersistenceWithAndroid-debug.apk
+04-25 12:32:58.011      587-611/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/akkaPersistenceWithAndroid-debug.apk
+04-25 12:32:58.011      587-611/? I/PackageManager﹕ Copying native libraries to /data/app-lib/vmdl211132360
+04-25 12:32:58.141      587-603/? I/ActivityManager﹕ Force stopping com.optrak.there appid=10161 user=-1: uninstall pkg
+04-25 12:32:58.272      587-611/? I/PackageManager﹕ Running dexopt on: com.optrak.there
+04-25 12:32:58.272      587-611/? I/PackageManager﹕ Package com.optrak.there codePath changed from /data/app/com.optrak.there-2.apk to /data/app/com.optrak.there-1.apk; Retaining data and using new
+04-25 12:32:59.833    3457-3457/? D/dalvikvm﹕ DexOpt: load 206ms, verify+opt 1039ms, 3685348 bytes
+04-25 12:33:00.023      587-611/? W/PackageManager﹕ Code path for pkg : com.optrak.there changing from /data/app/com.optrak.there-2.apk to /data/app/com.optrak.there-1.apk
+04-25 12:33:00.023      587-603/? I/ActivityManager﹕ Force stopping com.optrak.there appid=10161 user=-1: update pkg
+04-25 12:33:00.023      587-611/? W/PackageManager﹕ Resource path for pkg : com.optrak.there changing from /data/app/com.optrak.there-2.apk to /data/app/com.optrak.there-1.apk
+04-25 12:33:00.214      587-611/? I/ActivityManager﹕ Force stopping com.optrak.there appid=10161 user=0: pkg removed
+04-25 12:33:00.264  11122-11122/? D/dalvikvm﹕ GC_EXPLICIT freed 472K, 9% free 10913K/11956K, paused 1ms+12ms, total 41ms
+04-25 12:33:00.294      856-856/? D/dalvikvm﹕ GC_EXPLICIT freed 2011K, 29% free 32340K/44984K, paused 2ms+7ms, total 81ms
+04-25 12:33:00.314      587-623/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+04-25 12:33:00.314      587-623/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+    [ 04-25 12:33:00.324  1600: 1600 E/com.amazon.kindle/com.amazon.identity.auth.device.framework.MAPApplicationInformationQueryerNotified by action android.intent.action.PACKAGE_REMOVED to invalidate app cache
+		    [ 04-25 12:33:00.324  1600: 1600 E/com.amazon.kindle/com.amazon.identity.auth.device.framework.MAPApplicationInformationQueryerNotified by action android.intent.action.PACKAGE_ADDED to invalidate app cache
+				    [ 04-25 12:33:00.324  1600: 1600 E/com.amazon.kindle/com.amazon.identity.auth.device.framework.MAPApplicationInformationQueryerNotified by action android.intent.action.PACKAGE_REPLACED to invalidate app cache
+						04-25 12:33:00.324      587-623/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+						04-25 12:33:00.334      752-752/? W/ContextImpl﹕ Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2419
+						04-25 12:33:00.344    2792-2798/? D/dalvikvm﹕ GC_CONCURRENT freed 395K, 5% free 9023K/9460K, paused 3ms+1ms, total 18ms
+						04-25 12:33:00.364      587-587/? D/dalvikvm﹕ GC_EXPLICIT freed 3200K, 32% free 29001K/42392K, paused 4ms+13ms, total 141ms
+						04-25 12:33:00.364      587-611/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 38ms
+						04-25 12:33:00.414      843-847/? D/dalvikvm﹕ GC_CONCURRENT freed 569K, 7% free 9273K/9876K, paused 1ms+1ms, total 13ms
+						04-25 12:33:00.444   28594-3469/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_REMOVED and uri=com.optrak.there
+						04-25 12:33:00.444  28515-28518/? D/dalvikvm﹕ GC_CONCURRENT freed 557K, 8% free 9910K/10664K, paused 1ms+1ms, total 27ms
+						04-25 12:33:00.454  20134-20134/? W/ContextImpl﹕ Implicit intents with startService are not safe: Intent { act=com.outlook.Z7.service.BROADCAST (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.seven.Z7.service.Z7BroadcastReceiver.onReceive:30
+						04-25 12:33:00.494      587-587/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.optrak.there flg=0x4000010 (has extras) }
+						04-25 12:33:00.514  28325-28328/? D/dalvikvm﹕ GC_CONCURRENT freed 307K, 4% free 9066K/9408K, paused 1ms+5ms, total 32ms
+						04-25 12:33:00.524   11122-3473/? I/Icing.InternalIcingCorporaProvider﹕ Updating corpora: A: com.optrak.there, C: MAYBE
+						04-25 12:33:00.524      587-587/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.optrak.there flg=0x4000010 (has extras) }
+						04-25 12:33:00.524      587-587/? V/BackupManagerService﹕ removePackageParticipantsLocked: uid=10161 #1
+						04-25 12:33:00.524      587-587/? V/BackupManagerService﹕ addPackageParticipantsLocked: #1
+						04-25 12:33:00.554   28594-3476/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=com.optrak.there
+						04-25 12:33:00.554   25725-3475/? W/DeepLinking﹕ no deep link install data found for com.optrak.there
+						04-25 12:33:00.554      587-841/? I/ActivityManager﹕ Delay finish: com.google.android.gms/.app.receiver.SystemBroadcastReceiver
+						04-25 12:33:00.564   28594-3478/? I/PeopleContactsSync﹕ CP2 sync disabled
+						04-25 12:33:00.624      587-611/? D/dalvikvm﹕ GC_EXPLICIT freed 547K, 32% free 28862K/42392K, paused 4ms+20ms, total 260ms
+						04-25 12:33:00.644   11122-3473/? I/Icing.InternalIcingCorporaProvider﹕ UpdateCorporaTask done [took 120 ms] updated apps [took 120 ms]
+						04-25 12:33:00.644    3442-3442/? D/AndroidRuntime﹕ Shutting down VM
+						04-25 12:33:00.644    3442-3452/? D/jdwp﹕ Got wake-up signal, bailing out of select
+						04-25 12:33:00.644    3442-3452/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+						04-25 12:33:00.644  20134-20134/? W/ContextImpl﹕ Implicit intents with startService are not safe: Intent { act=com.outlook.Z7.service.BROADCAST (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.seven.Z7.service.Z7BroadcastReceiver.onReceive:30
+						04-25 12:33:00.644      587-598/? I/ActivityManager﹕ Resuming delayed broadcast
+						04-25 12:33:00.684     587-5531/? I/ActivityManager﹕ Delay finish: com.android.musicfx/.Compatibility$Receiver
+						04-25 12:33:00.694      587-887/? I/ActivityManager﹕ Resuming delayed broadcast
+						04-25 12:33:00.694      587-764/? I/ActivityManager﹕ Delay finish: com.google.android.gms/.app.receiver.SystemBroadcastReceiver
+						04-25 12:33:00.704   28594-3481/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_REPLACED and uri=com.optrak.there
+						04-25 12:33:00.704   28594-3482/? I/PeopleContactsSync﹕ CP2 sync disabled
+						04-25 12:33:00.704    587-17679/? I/ActivityManager﹕ Resuming delayed broadcast
+						04-25 12:33:01.235    3488-3488/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+						04-25 12:33:01.235    3488-3488/? D/AndroidRuntime﹕ CheckJNI is OFF
+						04-25 12:33:01.245    3488-3488/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+						04-25 12:33:01.255    3488-3488/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+						04-25 12:33:01.255    3488-3488/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+						04-25 12:33:01.255    3488-3488/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+						04-25 12:33:01.255    3488-3488/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+						04-25 12:33:01.295    3488-3488/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+						04-25 12:33:01.495    3488-3488/? D/AndroidRuntime﹕ Calling main entry com.android.commands.am.Am
+						04-25 12:33:01.515      587-840/? I/ActivityManager﹕ START u0 {flg=0x10000000 cmp=com.optrak.there/.WriteActivity} from pid 3488
+						04-25 12:33:01.515    3488-3488/? D/AndroidRuntime﹕ Shutting down VM
+						04-25 12:33:01.515    3488-3497/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+						04-25 12:33:01.525    3501-3501/? D/dalvikvm﹕ Late-enabling CheckJNI
+						04-25 12:33:01.535      587-841/? I/ActivityManager﹕ Start proc com.optrak.there for activity com.optrak.there/.WriteActivity: pid=3501 uid=10161 gids={50161}
+						04-25 12:33:01.645  28594-28624/? I/Icing﹕ Indexing 842E3920C2AA9695153356DD7E693CA487396A15 from com.google.android.googlequicksearchbox
+						04-25 12:33:01.715  28594-28598/? D/dalvikvm﹕ GC_CONCURRENT freed 473K, 9% free 10363K/11284K, paused 10ms+4ms, total 65ms
+						04-25 12:33:01.715    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 324K, 4% free 9151K/9512K, paused 17ms, total 17ms
+						04-25 12:33:01.765  28594-28624/? I/Icing﹕ Indexing done 842E3920C2AA9695153356DD7E693CA487396A15
+						04-25 12:33:01.825    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 431K, 5% free 9231K/9696K, paused 12ms, total 12ms
+						04-25 12:33:01.925    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 453K, 6% free 9285K/9776K, paused 14ms, total 14ms
+						04-25 12:33:02.025    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 446K, 5% free 9343K/9828K, paused 14ms, total 14ms
+						04-25 12:33:02.125    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 438K, 5% free 9417K/9888K, paused 15ms, total 15ms
+						04-25 12:33:02.205    3501-3501/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 334K, 4% free 9593K/9960K, paused 20ms, total 20ms
+						04-25 12:33:02.215    1600-1700/? I/Metrics:BatchTransmitte﹕ QueuePusher.sendBatches - Drained batch queue.; Number of batches sent: 0
+						04-25 12:33:02.306    3501-3530/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 321K, 4% free 9784K/10136K, paused 18ms, total 18ms
+						04-25 12:33:02.326    3501-3532/com.optrak.there W/dalvikvm﹕ Exception Ljava/lang/NullPointerException; thrown while initializing Lorg/iq80/leveldb/impl/Iq80DBFactory;
+						04-25 12:33:02.336    3501-3532/com.optrak.there W/dalvikvm﹕ threadid=16: thread exiting with uncaught exception (group=0x4160cba8)
+						04-25 12:33:02.356    3501-3534/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 141K, 4% free 9973K/10316K, paused 19ms, total 19ms
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ Uncaught error from thread [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled for ActorSystem[example]
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ java.lang.ExceptionInInitializerError
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ [ERROR] [04/25/2014 12:33:02.340] [example-akka.actor.default-dispatcher-8] [akka://example/system/snapshot-store] null
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ java.lang.NullPointerException
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef$.length$extension(ArrayOps.scala:114)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.length(ArrayOps.scala:114)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.leveldbFactory(LeveldbStore.scala:37)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.leveldbFactory(LeveldbJournal.scala:20)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.SeqLike$class.size(SeqLike.scala:106)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:20)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.size(ArrayOps.scala:108)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.Builder$class.sizeHint(Builder.scala:69)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayBuilder.sizeHint(ArrayBuilder.scala:24)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.TraversableLike$class.builder$1(TraversableLike.scala:240)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.TraversableLike$class.map(TraversableLike.scala:243)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.map(ArrayOps.scala:108)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.snapshotMetadata(LocalSnapshotStore.scala:103)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.loadAsync(LocalSnapshotStore.scala:47)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.SnapshotStore$$anonfun$receive$1.applyOrElse(SnapshotStore.scala:27)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.aroundReceive(LocalSnapshotStore.scala:26)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:20)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.actor.ActorCell.create(ActorCell.scala:580)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ [ERROR] [04/25/2014 12:33:02.359] [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] [ActorSystem(example)] Uncaught error from thread [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ java.lang.ExceptionInInitializerError
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.leveldbFactory(LeveldbStore.scala:37)
+						04-25 12:33:02.356    3501-3532/com.optrak.there W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.leveldbFactory(LeveldbJournal.scala:20)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+						04-25 12:33:02.356    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:20)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:20)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:580)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ Caused by: java.lang.NullPointerException
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ at org.iq80.leveldb.impl.Iq80DBFactory.<clinit>(Iq80DBFactory.java:32)
+						04-25 12:33:02.366    3501-3534/com.optrak.there I/System.out﹕ ... 14 more
+						04-25 12:33:02.366    3501-3532/com.optrak.there W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:02.366    3501-3532/? W/System.err﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:02.366    3501-3532/? W/System.err﹕ Caused by: java.lang.NullPointerException
+						04-25 12:33:02.366    3501-3532/? W/System.err﹕ at org.iq80.leveldb.impl.Iq80DBFactory.<clinit>(Iq80DBFactory.java:32)
+						04-25 12:33:02.366    3501-3532/? W/System.err﹕ ... 14 more
+						04-25 12:33:02.366    3501-3532/? I/AndroidRuntime﹕ VM exiting with result code -1, cleanup skipped.
+						04-25 12:33:02.376    587-30026/? I/ActivityManager﹕ Process com.optrak.there (pid 3501) has died.
+						04-25 12:33:02.376    3538-3538/? D/dalvikvm﹕ Late-enabling CheckJNI
+						04-25 12:33:02.386    587-30026/? I/ActivityManager﹕ Start proc com.optrak.there for activity com.optrak.there/.WriteActivity: pid=3538 uid=10161 gids={50161}
+						04-25 12:33:02.406      179-179/? D/Zygote﹕ Process 3501 exited cleanly (255)
+						04-25 12:33:02.516    3538-3538/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 327K, 4% free 9151K/9516K, paused 18ms, total 18ms
+						04-25 12:33:02.616    3538-3538/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 432K, 5% free 9231K/9696K, paused 15ms, total 15ms
+						04-25 12:33:02.716    3538-3538/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 453K, 6% free 9285K/9776K, paused 16ms, total 16ms
+						04-25 12:33:02.816    3538-3538/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 445K, 5% free 9344K/9828K, paused 17ms, total 17ms
+						04-25 12:33:02.916    3538-3538/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 438K, 5% free 9417K/9888K, paused 18ms, total 18ms
+						04-25 12:33:03.006    3538-3552/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 335K, 4% free 9593K/9960K, paused 17ms, total 17ms
+						04-25 12:33:03.106    3538-3552/com.optrak.there D/dalvikvm﹕ GC_FOR_ALLOC freed 321K, 4% free 9784K/10136K, paused 24ms, total 24ms
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/dalvikvm﹕ Exception Ljava/lang/NullPointerException; thrown while initializing Lorg/iq80/leveldb/impl/Iq80DBFactory;
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/dalvikvm﹕ threadid=16: thread exiting with uncaught exception (group=0x4160cba8)
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ Uncaught error from thread [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled for ActorSystem[example]
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ java.lang.ExceptionInInitializerError
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.leveldbFactory(LeveldbStore.scala:37)
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.leveldbFactory(LeveldbJournal.scala:20)
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.136    3538-3556/com.optrak.there W/System.err﹕ at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ [ERROR] [04/25/2014 12:33:03.144] [example-akka.actor.default-dispatcher-7] [akka://example/system/snapshot-store] null
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ java.lang.NullPointerException
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef$.length$extension(ArrayOps.scala:114)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.length(ArrayOps.scala:114)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.SeqLike$class.size(SeqLike.scala:106)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.size(ArrayOps.scala:108)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.Builder$class.sizeHint(Builder.scala:69)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayBuilder.sizeHint(ArrayBuilder.scala:24)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.TraversableLike$class.builder$1(TraversableLike.scala:240)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.TraversableLike$class.map(TraversableLike.scala:243)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.map(ArrayOps.scala:108)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.snapshotMetadata(LocalSnapshotStore.scala:103)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.loadAsync(LocalSnapshotStore.scala:47)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.SnapshotStore$$anonfun$receive$1.applyOrElse(SnapshotStore.scala:27)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.aroundReceive(LocalSnapshotStore.scala:26)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:03.146    3538-3552/com.optrak.there I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:03.146    3538-3556/com.optrak.there W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.146    3538-3556/com.optrak.there W/System.err﹕ at akka.actor.ActorCell.create(ActorCell.scala:580)
+						04-25 12:33:03.146    3538-3556/com.optrak.there W/System.err﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ Caused by: java.lang.NullPointerException
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ at org.iq80.leveldb.impl.Iq80DBFactory.<clinit>(Iq80DBFactory.java:32)
+						04-25 12:33:03.146    3538-3556/? W/System.err﹕ ... 14 more
+						04-25 12:33:03.156    3538-3556/? I/AndroidRuntime﹕ VM exiting with result code -1, cleanup skipped.
+						04-25 12:33:03.156    587-17679/? I/ActivityManager﹕ Process com.optrak.there (pid 3538) has died.
+						04-25 12:33:03.166    3560-3560/? D/dalvikvm﹕ Late-enabling CheckJNI
+						04-25 12:33:03.176    587-17679/? I/ActivityManager﹕ Start proc com.optrak.there for activity com.optrak.there/.WriteActivity: pid=3560 uid=10161 gids={50161}
+						04-25 12:33:03.186    3560-3566/? E/jdwp﹕ Failed sending reply to debugger: Broken pipe
+						04-25 12:33:03.186    3560-3566/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+						04-25 12:33:03.206      179-179/? D/Zygote﹕ Process 3538 exited cleanly (255)
+						04-25 12:33:03.266    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 279K, 4% free 9159K/9472K, paused 2ms+3ms, total 25ms
+						04-25 12:33:03.347    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 407K, 5% free 9222K/9664K, paused 1ms+2ms, total 16ms
+						04-25 12:33:03.407    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 425K, 5% free 9276K/9740K, paused 1ms+2ms, total 18ms
+						04-25 12:33:03.477    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 425K, 5% free 9329K/9796K, paused 1ms+2ms, total 18ms
+						04-25 12:33:03.567    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 417K, 5% free 9412K/9840K, paused 1ms+3ms, total 37ms
+						04-25 12:33:03.637    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 394K, 5% free 9502K/9932K, paused 1ms+3ms, total 19ms
+						04-25 12:33:03.697    3560-3575/? D/dalvikvm﹕ GC_FOR_ALLOC freed 139K, 5% free 9637K/10040K, paused 22ms, total 22ms
+						04-25 12:33:03.727    3560-3577/? D/dalvikvm﹕ GC_FOR_ALLOC freed 96K, 4% free 9757K/10148K, paused 17ms, total 17ms
+						04-25 12:33:03.807    3560-3564/? D/dalvikvm﹕ GC_CONCURRENT freed 346K, 4% free 9923K/10300K, paused 3ms+2ms, total 25ms
+						04-25 12:33:03.807    3560-3580/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 10ms
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ [ERROR] [04/25/2014 12:33:03.798] [example-akka.actor.default-dispatcher-3] [akka://example/system/snapshot-store] null
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ java.lang.NullPointerException
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef$.length$extension(ArrayOps.scala:114)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.length(ArrayOps.scala:114)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.SeqLike$class.size(SeqLike.scala:106)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.size(ArrayOps.scala:108)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.Builder$class.sizeHint(Builder.scala:69)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.ArrayBuilder.sizeHint(ArrayBuilder.scala:24)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.TraversableLike$class.builder$1(TraversableLike.scala:240)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.TraversableLike$class.map(TraversableLike.scala:243)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at scala.collection.mutable.ArrayOps$ofRef.map(ArrayOps.scala:108)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.snapshotMetadata(LocalSnapshotStore.scala:103)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.loadAsync(LocalSnapshotStore.scala:47)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.persistence.snapshot.SnapshotStore$$anonfun$receive$1.applyOrElse(SnapshotStore.scala:27)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.aroundReceive(LocalSnapshotStore.scala:26)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:03.807    3560-3580/? I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:03.807    3560-3579/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 12ms
+						04-25 12:33:03.807    3560-3578/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 12ms
+						04-25 12:33:03.807    3560-3579/? W/dalvikvm﹕ Exception Ljava/lang/NullPointerException; thrown while initializing Lorg/iq80/leveldb/impl/Iq80DBFactory;
+						04-25 12:33:03.807    3560-3579/? W/dalvikvm﹕ threadid=16: thread exiting with uncaught exception (group=0x4160cba8)
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ Uncaught error from thread [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled for ActorSystem[example]
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ java.lang.ExceptionInInitializerError
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.leveldbFactory(LeveldbStore.scala:37)
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.leveldbFactory(LeveldbJournal.scala:20)
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+						04-25 12:33:03.807    3560-3579/? W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.actor.ActorCell.create(ActorCell.scala:580)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ [ERROR] [04/25/2014 12:33:03.815] [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] [ActorSystem(example)] Uncaught error from thread [example-akka.persistence.dispatchers.default-plugin-dispatcher-6] shutting down JVM since 'akka.jvm-exit-on-fatal-error' is enabled
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ java.lang.ExceptionInInitializerError
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.leveldbFactory(LeveldbStore.scala:37)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.leveldbFactory(LeveldbJournal.scala:20)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbStore$class.preStart(LeveldbStore.scala:114)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.preStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.actor.Actor$class.aroundPreStart(Actor.scala:470)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.persistence.journal.leveldb.LeveldbJournal.aroundPreStart(LeveldbJournal.scala:20)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:580)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ Caused by: java.lang.NullPointerException
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ at org.iq80.leveldb.impl.Iq80DBFactory.<clinit>(Iq80DBFactory.java:32)
+						04-25 12:33:03.817    3560-3580/? I/System.out﹕ ... 14 more
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at java.lang.Thread.run(Thread.java:841)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ Caused by: java.lang.NullPointerException
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ at org.iq80.leveldb.impl.Iq80DBFactory.<clinit>(Iq80DBFactory.java:32)
+						04-25 12:33:03.817    3560-3579/? W/System.err﹕ ... 14 more
+						04-25 12:33:03.817    3560-3579/? I/AndroidRuntime﹕ VM exiting with result code -1, cleanup skipped.
+						04-25 12:33:03.827    587-17679/? I/ActivityManager﹕ Process com.optrak.there (pid 3560) has died.
+						04-25 12:33:03.827    587-17679/? W/ActivityManager﹕ Force removing ActivityRecord{41efb350 u0 com.optrak.there/.WriteActivity t453}: app died, no saved state
+						04-25 12:33:03.867      179-179/? D/Zygote﹕ Process 3560 exited cleanly (255)
+						04-25 12:33:03.927      587-764/? W/InputMethodManagerService﹕ Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@425f8c28 attribute=android.view.inputmethod.EditorInfo@428477a8, token = android.os.BinderProxy@4344bb50
+						04-25 12:33:15.639  28515-28518/? D/dalvikvm﹕ GC_CONCURRENT freed 86K, 4% free 10215K/10636K, paused 2ms+5ms, total 28ms
+						04-25 12:33:15.699  28515-28515/? D/Finsky﹕ [1] 5.onFinished: Installation state replication succeeded.
+
