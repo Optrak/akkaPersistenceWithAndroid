@@ -7,7 +7,7 @@ Currently it fails with the errors shown in log copied in errorMsg2.txt.
 
 Current environment:
 + Mac OS X 10.9.2
-+ ```
+```
 $ java -version
 java version "1.8.0_05"
 Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
