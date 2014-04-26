@@ -1,22 +1,23 @@
 package com.optrak.sample
 
-import android.util.Log
+//import android.util.Log
 import akka.persistence.{Persistent, Processor}
 import akka.actor.{Props, ActorSystem}
 import android.app.Activity
 import android.os.Bundle
 import java.util.concurrent.{TimeUnit, ThreadPoolExecutor, LinkedBlockingQueue}
 import scala.concurrent.ExecutionContext
+import android.widget.EditText
 
 object ExampleProcessor {
-  def props(): Props = Props(new ExampleProcessor())
+  def props(et: EditText): Props = Props(new ExampleProcessor(et))
 }
 
-class ExampleProcessor() extends Processor {
+class ExampleProcessor(et: EditText) extends Processor {
   var received: List[String] = Nil // state
 
   def receive = {
-    case "print"                        => Log.d(TAG, s"received ${received.reverse}")
+    case "print"                        => et.setText(s"received ${received.reverse}") //Log.d(TAG, s"received ${received.reverse}")
     case "boom"                         => throw new Exception("boom")
     case Persistent("boom", _)          => throw new Exception("boom")
     case Persistent(payload: String, _) => received = payload :: received
@@ -35,8 +36,15 @@ class ExampleProcessor() extends Processor {
  * Created by oscarvarto on 4/23/14.
  */
 class WriteActivity extends Activity {
+
+  var printEditText: EditText = _
+
   override def onCreate(savedInstanceState: Bundle) {
     super.onCreate(savedInstanceState)
+    setContentView(R.layout.simple)
+
+    printEditText = findViewById(R.id.printEditText).asInstanceOf[EditText]
+
     val (corePoolSize, maximumPoolSize, keepAliveTime) = (10, 10, 100)
     val workQueue = new LinkedBlockingQueue[Runnable]
     // Execution context for futures below
@@ -45,7 +53,7 @@ class WriteActivity extends Activity {
     )
 
     val system = ActorSystem("example")
-    val processor = system.actorOf(ExampleProcessor.props(), "DummyProcessor")
+    val processor = system.actorOf(ExampleProcessor.props(printEditText), "DummyProcessor")
 
     processor ! Persistent("a")
     processor ! "print"
