@@ -1,0 +1,82 @@
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ akka.actor.ActorInitializationException: exception during creation
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorInitializationException$.apply(Actor.scala:164)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:596)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ Caused by: com.typesafe.config.ConfigException$Missing: No configuration setting found for key 'journal.plugin'
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:124)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:145)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:151)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:159)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:164)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.typesafe.config.impl.SimpleConfig.getString(SimpleConfig.java:206)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence.createPlugin(Persistence.scala:143)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence.<init>(Persistence.scala:91)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.createExtension(Persistence.scala:73)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.createExtension(Persistence.scala:67)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:711)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ExtensionId$class.apply(Extension.scala:79)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.apply(Persistence.scala:67)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Recovery$class.$init$(Recovery.scala:226)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.optrak.sample.ExampleProcessor.<init>(WriteActivity.scala:16)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.optrak.sample.ExampleProcessor$$anonfun$props$1.apply(WriteActivity.scala:13)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at com.optrak.sample.ExampleProcessor$$anonfun$props$1.apply(WriteActivity.scala:13)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.TypedCreatorFunctionConsumer.produce(Props.scala:340)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.Props.newActor(Props.scala:249)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.newActor(ActorCell.scala:552)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:578)
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ ... 9 more
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.014] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [akka.persistence.PersistentImpl] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.036  12011-12032/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.016] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ [ERROR] [04/28/2014 08:54:25.019] [example-akka.actor.default-dispatcher-5] [akka://example/system/snapshot-store] actor name [snapshot-store] is not unique!
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ akka.actor.ActorInitializationException: exception during creation
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorInitializationException$.apply(Actor.scala:164)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:596)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at java.lang.Thread.run(Thread.java:841)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ Caused by: akka.actor.InvalidActorNameException: actor name [snapshot-store] is not unique!
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:130)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.dungeon.Children$class.reserveChild(Children.scala:77)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.reserveChild(ActorCell.scala:369)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.dungeon.Children$class.makeChild(Children.scala:202)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.dungeon.Children$class.attachChild(Children.scala:42)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.attachChild(ActorCell.scala:369)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorSystemImpl.systemActorOf(ActorSystem.scala:550)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence.createPlugin(Persistence.scala:148)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence.<init>(Persistence.scala:87)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.createExtension(Persistence.scala:73)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.createExtension(Persistence.scala:67)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:711)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ExtensionId$class.apply(Extension.scala:79)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.Persistence$.apply(Persistence.scala:67)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.snapshot.SnapshotStore$class.$init$(SnapshotStore.scala:21)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.persistence.snapshot.local.LocalSnapshotStore.<init>(LocalSnapshotStore.scala:26)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at java.lang.Class.newInstanceImpl(Native Method)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at java.lang.Class.newInstance(Class.java:1208)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.util.Reflect$.instantiate(Reflect.scala:45)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.NoArgsReflectConstructor.produce(Props.scala:358)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.Props.newActor(Props.scala:249)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.newActor(ActorCell.scala:552)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ at akka.actor.ActorCell.create(ActorCell.scala:578)
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ ... 7 more
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.019] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12034/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.020] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12034/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.021] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [akka.persistence.PersistentImpl] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12034/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.022] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12034/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.050] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [akka.persistence.PersistentImpl] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12034/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.051] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [8] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.051] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [akka.persistence.PersistentImpl] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [9] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:25.046  12011-12032/com.optrak.sample I/System.out﹕ [INFO] [04/28/2014 08:54:25.052] [example-akka.actor.default-dispatcher-4] [akka://example/user/DummyProcessor] Message [java.lang.String] from Actor[akka://example/deadLetters] to Actor[akka://example/user/DummyProcessor#1576166415] was not delivered. [10] dead letters encountered, no more dead letters will be logged. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+04-28 08:54:26.057   3931-11630/? I/LatinIME:LogUtils﹕ Dictionary info: dictionary = contacts.en_US.dict ; version = ? ; date = ?
