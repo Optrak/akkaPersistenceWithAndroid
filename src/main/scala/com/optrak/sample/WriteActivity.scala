@@ -1,6 +1,6 @@
 package com.optrak.sample
 
-//import android.util.Log
+import android.util.Log
 import akka.persistence.{Persistent, Processor}
 import akka.actor.{Props, ActorSystem}
 import android.app.Activity
@@ -17,7 +17,7 @@ class ExampleProcessor(et: EditText) extends Processor {
   var received: List[String] = Nil // state
 
   def receive = {
-    case "print"                        => et.setText(s"received ${received.reverse}") //Log.d(TAG, s"received ${received.reverse}")
+    case "print"                        => Log.d(TAG, s"received ${received.reverse}") //et.setText(s"received ${received.reverse}") //
     case "boom"                         => throw new Exception("boom")
     case Persistent("boom", _)          => throw new Exception("boom")
     case Persistent(payload: String, _) => received = payload :: received
@@ -52,6 +52,8 @@ class WriteActivity extends Activity {
       new ThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, TimeUnit.SECONDS, workQueue)
     )
 
+    System.setProperty("sun.arch.data.model", "32")
+    System.setProperty("leveldb.mmap", "false")
     val system = ActorSystem("example")
     val processor = system.actorOf(ExampleProcessor.props(printEditText), "DummyProcessor")
 

@@ -158,8 +158,8 @@ proguardCache in Android ++= Seq(
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" % "akka-actor_2.10" % "2.3.2",
-  "org.mapdb" % "mapdb" % "0.9.13",
-  "io.github.drexin" %% "akka-persistence-mapdb" % "0.1-SNAPSHOT",
+  //"org.mapdb" % "mapdb" % "0.9.13",
+  //"io.github.drexin" %% "akka-persistence-mapdb" % "0.1-SNAPSHOT",
   "com.typesafe.akka" % "akka-persistence-experimental_2.10" % "2.3.2"
 )
 
